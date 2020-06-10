@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3A6D7C7352C468FC6AFBD15 /* libPods-MMPopupView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EBFF7F54A0C418E7302440 /* libPods-MMPopupView.a */; };
+		2D286353646BB6954CDB1CFB /* libPods-MMPopupView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E428B9176416926082A924D /* libPods-MMPopupView.a */; };
 		ED1E99341B9BD5C20093760A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99331B9BD5C20093760A /* main.m */; };
 		ED1E99371B9BD5C20093760A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99361B9BD5C20093760A /* AppDelegate.m */; };
 		ED1E993A1B9BD5C20093760A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99391B9BD5C20093760A /* ViewController.m */; };
@@ -25,8 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41200EBF1F3357F293167C6D /* Pods-MMPopupView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPopupView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMPopupView/Pods-MMPopupView.debug.xcconfig"; sourceTree = "<group>"; };
-		A4EBFF7F54A0C418E7302440 /* libPods-MMPopupView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMPopupView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E428B9176416926082A924D /* libPods-MMPopupView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMPopupView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE64FB4AFD113F4CC473B862 /* Pods-MMPopupView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPopupView.debug.xcconfig"; path = "Target Support Files/Pods-MMPopupView/Pods-MMPopupView.debug.xcconfig"; sourceTree = "<group>"; };
+		E3714BE636F9E98531651B9B /* Pods-MMPopupView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPopupView.release.xcconfig"; path = "Target Support Files/Pods-MMPopupView/Pods-MMPopupView.release.xcconfig"; sourceTree = "<group>"; };
 		ED1E992F1B9BD5C20093760A /* MMPopupView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPopupView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1E99331B9BD5C20093760A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED1E99351B9BD5C20093760A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		ED1E995E1B9C22F50093760A /* MMPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPinView.m; path = ../MMPinView.m; sourceTree = "<group>"; };
 		EDB365101B9D3323003A0B05 /* MMDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDateView.h; sourceTree = SOURCE_ROOT; };
 		EDB365111B9D3323003A0B05 /* MMDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDateView.m; sourceTree = SOURCE_ROOT; };
-		FF8DF09A03ED96B87C4FB5EA /* Pods-MMPopupView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPopupView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMPopupView/Pods-MMPopupView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,26 +62,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A6D7C7352C468FC6AFBD15 /* libPods-MMPopupView.a in Frameworks */,
+				2D286353646BB6954CDB1CFB /* libPods-MMPopupView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04B67B65790C00235A9743EA /* Pods */ = {
+		8A440A15DB9DCB1F7E016292 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				41200EBF1F3357F293167C6D /* Pods-MMPopupView.debug.xcconfig */,
-				FF8DF09A03ED96B87C4FB5EA /* Pods-MMPopupView.release.xcconfig */,
+				DE64FB4AFD113F4CC473B862 /* Pods-MMPopupView.debug.xcconfig */,
+				E3714BE636F9E98531651B9B /* Pods-MMPopupView.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		72E8955E140DFCE33AE55500 /* Frameworks */ = {
+		E05162030E8B09F9A32D57AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4EBFF7F54A0C418E7302440 /* libPods-MMPopupView.a */,
+				1E428B9176416926082A924D /* libPods-MMPopupView.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,8 +93,8 @@
 				ED1E99491B9BD8340093760A /* Classes */,
 				ED1E99311B9BD5C20093760A /* MMPopupView */,
 				ED1E99301B9BD5C20093760A /* Products */,
-				04B67B65790C00235A9743EA /* Pods */,
-				72E8955E140DFCE33AE55500 /* Frameworks */,
+				8A440A15DB9DCB1F7E016292 /* Pods */,
+				E05162030E8B09F9A32D57AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,11 +161,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED1E99461B9BD5C20093760A /* Build configuration list for PBXNativeTarget "MMPopupView" */;
 			buildPhases = (
-				74FFA79FF8D797EA4CE69C18 /* Check Pods Manifest.lock */,
+				05D4909B455B4F91DE31CBBA /* [CP] Check Pods Manifest.lock */,
 				ED1E992B1B9BD5C20093760A /* Sources */,
 				ED1E992C1B9BD5C20093760A /* Frameworks */,
 				ED1E992D1B9BD5C20093760A /* Resources */,
-				A788DF5FB597189F611CD16C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,34 +221,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		74FFA79FF8D797EA4CE69C18 /* Check Pods Manifest.lock */ = {
+		05D4909B455B4F91DE31CBBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMPopupView-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A788DF5FB597189F611CD16C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMPopupView/Pods-MMPopupView-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -378,7 +370,7 @@
 		};
 		ED1E99471B9BD5C20093760A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41200EBF1F3357F293167C6D /* Pods-MMPopupView.debug.xcconfig */;
+			baseConfigurationReference = DE64FB4AFD113F4CC473B862 /* Pods-MMPopupView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -394,7 +386,7 @@
 		};
 		ED1E99481B9BD5C20093760A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF8DF09A03ED96B87C4FB5EA /* Pods-MMPopupView.release.xcconfig */;
+			baseConfigurationReference = E3714BE636F9E98531651B9B /* Pods-MMPopupView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
